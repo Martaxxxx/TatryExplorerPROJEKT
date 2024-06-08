@@ -7,17 +7,17 @@ namespace TatryExplorer.Models
         public int Id { get; set; }
 
         [Required]
-        public string Nazwa { get; set; }
+        public string? Nazwa { get; set; }
 
         [Required]
         public double Długość { get; set; }
 
         [Required]
-        public string PoziomTrudności { get; set; }
+        public string? PoziomTrudności { get; set; }
 
         [Required]
-        public string OpisSzlaku { get; set; }
+        public string? OpisSzlaku { get; set; }
 
-        public string UserId { get; set; } // Dodane pole
+        public string? UserId { get; set; } // Dodane pole
     }
 }
